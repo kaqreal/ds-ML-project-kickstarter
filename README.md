@@ -1,16 +1,35 @@
-# Template Repo for ML Project
+# <span style="color:green">__Machine Learning Project__
 
-This template repo will give you a good starting point for your second project. Besides the files used for creating a virtual environment, you will find a simple example of how to build a simple model in a python script. This is maybe the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
 
-The data used for this is: [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+## <span style="color:navy">__>> Kickstarter Project Success <<__
+
+.
+
+**Context:** 
+Analyse and model success factors of kickstarter campaigns. Give new projects an idea what is needed for a successful funding and potentially even predict campaign success upfront.
+In recent years, the range of funding options for projects created by individuals and small companies has expanded considerably. In addition to savings, bank loans, friends & family funding and other traditional options, crowdfunding has become a popular and readily available alternative.
+
+Kickstarter, founded in 2009, is one particularly well-known and popular crowdfunding platform. It has an all-or-nothing funding model, whereby a project is only funded if it meets its goal amount; otherwise no money is given by backers to a project.
+A huge variety of factors contribute to the success or failure of a project — in general, and also on Kickstarter. Some of these are able to be quantified or categorized, which allows for the construction of a model to attempt to predict whether a project will succeed or not. The aim of this project is to construct such a model and also to analyse Kickstarter project data more generally, in order to help potential project creators assess whether or not Kickstarter is a good funding option for them, and what their chances of success are.
+
+**Source of the data:** Kickstarter Project Success Data, containing information about their campaigns.
+
+**Final Deliverables:**
+1. Slide deck PDF pushed to GitHub designed for non-technical stakeholders that outline findings, recommendations, and future work (10 min presentation).
+2. Jupyter notebook following PEP8 designed for data science/technical audience.
+3. (Recommended) Python script for generating (takes .csv as argument and saves the model locally) and running your model from the terminal (takes test.csv and model as arguments and outputs accuracy and predictions as .csv)
+
+**Team:** Jens Bimberg, Karine Real, Niels Lory
 
 ---
-## Requirements and Environment
+## **Requirements and Environment**
 
-Requirements:
+.
+
+**Requirements:**
 - pyenv with Python: 3.9.8
 
-Environment: 
+**Environment:**
 
 For installing the virtual environment you can either use the Makefile and run `make setup` or install it manually with the following commands: 
 
@@ -21,24 +40,3 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-
-## Usage
-
-In order to train the model and store test data in the data folder and the model in models run:
-
-```bash
-#activate env
-source .venv/bin/activate
-
-python example_files/train.py  
-```
-
-In order to test that predict works on a test set you created run:
-
-```bash
-python example_files/predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
-```
-
-## Limitations
-
-Development libraries are part of the production environment, normally these would be separate as the production code should be as slim as possible.
