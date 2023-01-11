@@ -22,9 +22,9 @@ A huge variety of factors contribute to the success or failure of a project — 
 **Team:** Jens Bimberg, Karine Real, Niels Lory
 
 **Files of the Project:**
-1. [EDA and Cleaning Notebook](ml_project_kickstarter/EDA-and-Cleaning.ipynb)
-2. [Machine Learning Notebook](ml_project_kickstarter/ML_Kickstarter.ipynb)
-3. [Presentation Slides](ml_project_kickstarter/Presentation_Kickstarter_ML_Jan23.pdf)
+1. [EDA and Cleaning Notebook](EDA-and-Cleaning.ipynb)
+2. [Machine Learning Notebook](ML_Kickstarter.ipynb)
+3. [Presentation Slides](Presentation_Kickstarter_ML_Jan23.pdf)
 
 ---
 ## **Requirements and Environment**
