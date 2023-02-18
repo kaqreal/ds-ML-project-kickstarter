@@ -14,11 +14,6 @@ A huge variety of factors contribute to the success or failure of a project — 
 
 **Source of the data:** Kickstarter Project Success Data, containing information about their campaigns.
 
-**Final Deliverables:**
-1. Slide deck PDF pushed to GitHub designed for non-technical stakeholders that outline findings, recommendations, and future work (10 min presentation).
-2. Jupyter notebook following PEP8 designed for data science/technical audience.
-3. (Recommended) Python script for generating (takes .csv as argument and saves the model locally) and running your model from the terminal (takes test.csv and model as arguments and outputs accuracy and predictions as .csv)
-
 **Team:** Jens Bimberg, Karine Real, Niels Lory
 
 **Files of the Project:**
